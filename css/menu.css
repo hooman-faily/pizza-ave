@@ -1,0 +1,62 @@
+
+.storeAddress{
+    color: #FFF;
+    font-family: Spartan;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 146px;
+}
+
+.cardTotal{
+    
+}
+.helloCustomerContainer{
+    display: flex;
+    width: 357px;
+    height: 171px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    position: absolute;
+    
+}
+.hello{
+    color: #FFF;
+    font-family: Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.myFavorites{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--red, #C72100);
+    color: #FCE3E3;
+}
+.myRewards{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--green, #5D8D61);
+    color: rgba(237, 255, 239, 1);
+}
+.heroImage{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menuHeroContainer{
+    
+}
