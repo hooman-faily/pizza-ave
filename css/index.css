@@ -25,3 +25,15 @@
     background-image: url(../img/sauce-button.png);
     color: white;
 }
+.btnSauce:hover{
+    background-image: url(../img/sauce-button-hover.png);
+    color: white;
+}
+
+.hero{
+    background-image: url(../img/background/homePageHeroBackgroundImage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-size: cover;
+}
