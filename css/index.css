@@ -1,0 +1,12 @@
+.cardTotal{
+    background-image: url(../img/background/card.png);
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 27px;
+    height: 31px;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
