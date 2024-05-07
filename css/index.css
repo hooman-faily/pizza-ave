@@ -88,3 +88,87 @@
     flex-direction: column;
     align-items: center;
 }
+
+.specials{
+    background-image: url(../img/background/weeklySpecialsWood.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+
+}
+
+.textWhite{
+    color: white;
+}
+
+.spetialCard{
+    background-color: white;
+    padding: 40px;
+}
+
+.spetialCard img{
+    width: 100%;
+}
+
+.cardTitle{
+    font-size: 52px;
+    color: red;
+    font-weight: 900;
+}
+.cardImage{
+    position: relative;
+    margin-bottom: 40px;
+}
+.cardSpecials{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: -16px;
+    bottom: -26px;
+    background-color: white;
+}
+.specialTitle{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    transform: rotate(-10.818deg);
+    display: inline-block;
+}
+
+.specialPrice{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.45px;
+
+}
+
+.specialPriceCent{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+.specialPriceGroup{
+    display: flex;
+    flex-direction: column;
+}
+.specialPriceEach{
+    margin-top: 2px;
+    text-transform: uppercase;
+    font-size: 9px;
+}
