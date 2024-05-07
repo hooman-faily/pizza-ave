@@ -62,3 +62,29 @@
     width: fit-content;
     margin-left: auto;
 }
+
+.review{
+    background-image: url(../img/background/backgroundUnderHeroRedImage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.callUs{
+    background-color: white;
+    color: black;
+    border-radius: 1.5625rem;
+    padding: 0.9375rem 1.25rem;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: -25px;
+}
+
+.reviewContainer{
+    text-align: center;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
